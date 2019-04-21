@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/info">
+        <item
+            android:id="@+id/info_title"
+            android:title="咨询" />
+        <item
+            android:id="@+id/zhihu"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_zhihu"
+            android:title="知乎日报" />
+        <item
+            android:id="@+id/wechat"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_wechat"
+            android:title="微信精选" />
+        <item
+            android:id="@+id/gank"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_gank"
+            android:title="干货集合营" />
+        <item
+            android:id="@+id/gold"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_gold"
+            android:title="稀土挖金" />
+        <item
+            android:id="@+id/v2ex"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_vtex"
+            android:title="V2EX" />
+
+    </group>
+    <group android:id="@+id/options">
+        <item
+            android:id="@+id/options_title"
+            android:title="选项" />
+        <item
+            android:id="@+id/collect"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_like"
+            android:title="收藏" />
+        <item
+            android:id="@+id/settings"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_setting"
+            android:title="设置" />
+        <item
+            android:id="@+id/about"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_about"
+            android:title="关于" />
+    </group>
+
+</menu>
